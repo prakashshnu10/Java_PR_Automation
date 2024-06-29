@@ -12,7 +12,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <sonar.host.url>http://localhost:9000</sonar.host.url>
+        <sonar.host.url>http://127.0.0.1:9000</sonar.host.url>
         <sonar.login>sqa_8a1db691db8c542a6dd3966322376b9b728e12cc</sonar.login>
         <sonar.projectKey>Java_PR_Automation</sonar.projectKey>
 
