@@ -21,6 +21,9 @@ jobs:
           path: ~/.sonar/cache
           key: ${{ runner.os }}-sonar
 
+      - name: Set execute permissions for mvnw
+        run: chmod +x mvnw
+
       - name: Build and analyze
         run: |
           ./mvnw clean verify sonar:sonar \
